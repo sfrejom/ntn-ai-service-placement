@@ -17,8 +17,6 @@ The repository contains:
   attention-based, autoregressive node selection);
 - training, evaluation, scalability and ablation pipelines, and the
   figure-generation code used in the paper;
-- the LaTeX source of the article, including the trained policy
-  checkpoint and the saved evaluation outputs.
 
 ## Repository layout
 
@@ -35,8 +33,6 @@ requirements.txt     Python dependencies
 ## Requirements
 
 - Python 3.13 or newer
-- A working LaTeX distribution (TeX Live 2023+ recommended) to build the
-  PDF
 - The Python packages listed in `requirements.txt`
 
 ## Quick start
@@ -73,17 +69,6 @@ Generate every figure used in the paper:
 python -m experiments.make_figures
 python -m experiments.make_figures_extras
 ```
-
-Build the PDF:
-
-```bash
-cd paper
-pdflatex main.tex && bibtex main && pdflatex main.tex && pdflatex main.tex
-```
-
-The full pipeline (training, evaluation, scalability, ablation, figures,
-and PDF compilation) runs end-to-end in under ten minutes on a single CPU
-thread.
 
 ## License and citation
 

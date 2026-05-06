@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+.python-version
+
+# OS
+.DS_Store
+Thumbs.db
+
+# LaTeX intermediate files
+paper/*.aux
+paper/*.log
+paper/*.bbl
+paper/*.blg
+paper/*.out
+paper/*.toc
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.synctex.gz
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Paper sources (not part of the reproducibility artefact)
+paper/
+
+# Per-user notes / Claude artefacts (not part of the public artefact)
+REVISION.txt
+.claude/
+.claude*

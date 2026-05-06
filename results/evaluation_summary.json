@@ -1,0 +1,190 @@
+{
+  "small": {
+    "random": {
+      "mean_cost_total": 8573.782619650674,
+      "std_cost_total": 230.58844715829775,
+      "mean_avg_latency_ms": 3.452440244476976,
+      "mean_pct_demand_served": 0.3655501085565939,
+      "median_decision_ms": 0.06485451012849808,
+      "mean_migration_cost": 214.89066666666665,
+      "mean_capacity_violations": 0.14
+    },
+    "greedy": {
+      "mean_cost_total": 8697.990835329958,
+      "std_cost_total": 1525.0756003396652,
+      "mean_avg_latency_ms": 0.19974164223240404,
+      "mean_pct_demand_served": 0.2849171278790956,
+      "median_decision_ms": 0.6730833556503057,
+      "mean_migration_cost": 22.72,
+      "mean_capacity_violations": 0.0
+    },
+    "layer-aware": {
+      "mean_cost_total": 5684.717753342293,
+      "std_cost_total": 247.02726353542218,
+      "mean_avg_latency_ms": 3.971681758423029,
+      "mean_pct_demand_served": 0.6324907579322079,
+      "median_decision_ms": 0.09997887536883354,
+      "mean_migration_cost": 19.093333333333334,
+      "mean_capacity_violations": 0.0
+    },
+    "ilp": {
+      "mean_cost_total": 145.37098348349764,
+      "std_cost_total": 8.342814633623622,
+      "mean_avg_latency_ms": 0.2897977834842412,
+      "mean_pct_demand_served": 1.0,
+      "median_decision_ms": 40.98979150876403,
+      "mean_migration_cost": 4.16,
+      "mean_capacity_violations": 0.0
+    },
+    "drl": {
+      "mean_cost_total": 1531.2951460537952,
+      "std_cost_total": 149.76148073676129,
+      "mean_avg_latency_ms": 2.8085461855821596,
+      "mean_pct_demand_served": 1.0,
+      "median_decision_ms": 1.4646665658801794,
+      "mean_migration_cost": 170.21866666666665,
+      "mean_capacity_violations": 0.0
+    }
+  },
+  "large": {
+    "random": {
+      "mean_cost_total": 14299.052287950304,
+      "std_cost_total": 552.6195500885021,
+      "mean_avg_latency_ms": 4.34271335387466,
+      "mean_pct_demand_served": 0.37238935937404033,
+      "median_decision_ms": 0.08337525650858879,
+      "mean_migration_cost": 220.72,
+      "mean_capacity_violations": 0.1
+    },
+    "greedy": {
+      "mean_cost_total": 13609.176229722792,
+      "std_cost_total": 5548.933325737782,
+      "mean_avg_latency_ms": 0.20015341488428418,
+      "mean_pct_demand_served": 0.33880116031853874,
+      "median_decision_ms": 1.0724789462983608,
+      "mean_migration_cost": 34.96000000000001,
+      "mean_capacity_violations": 0.0
+    },
+    "layer-aware": {
+      "mean_cost_total": 6822.97229628806,
+      "std_cost_total": 1673.3988034432373,
+      "mean_avg_latency_ms": 2.7072481905795827,
+      "mean_pct_demand_served": 0.7471830316583207,
+      "median_decision_ms": 0.10389555245637894,
+      "mean_migration_cost": 19.28,
+      "mean_capacity_violations": 0.0
+    },
+    "ilp": {
+      "mean_cost_total": 284.47670145478514,
+      "std_cost_total": 24.62718580106826,
+      "mean_avg_latency_ms": 0.3437049559643806,
+      "mean_pct_demand_served": 1.0,
+      "median_decision_ms": 53.09556261636317,
+      "mean_migration_cost": 4.346666666666667,
+      "mean_capacity_violations": 0.0
+    },
+    "drl": {
+      "mean_cost_total": 2800.715042508404,
+      "std_cost_total": 160.1494952220176,
+      "mean_avg_latency_ms": 3.225892645715014,
+      "mean_pct_demand_served": 1.0,
+      "median_decision_ms": 1.9434797577559948,
+      "mean_migration_cost": 187.664,
+      "mean_capacity_violations": 0.0
+    }
+  },
+  "surge": {
+    "random": {
+      "mean_cost_total": 16999.419455140345,
+      "std_cost_total": 1141.1352521043398,
+      "mean_avg_latency_ms": 3.550602834661937,
+      "mean_pct_demand_served": 0.37113037570696555,
+      "median_decision_ms": 0.06033293902873993,
+      "mean_migration_cost": 215.2746666666666,
+      "mean_capacity_violations": 0.07333333333333333
+    },
+    "greedy": {
+      "mean_cost_total": 17624.4666357337,
+      "std_cost_total": 3307.078179751217,
+      "mean_avg_latency_ms": 0.1978500794750007,
+      "mean_pct_demand_served": 0.2870222808130911,
+      "median_decision_ms": 0.6121667101979256,
+      "mean_migration_cost": 20.62933333333333,
+      "mean_capacity_violations": 0.0
+    },
+    "layer-aware": {
+      "mean_cost_total": 11505.27862753319,
+      "std_cost_total": 631.3467203104035,
+      "mean_avg_latency_ms": 3.8476504773121785,
+      "mean_pct_demand_served": 0.6297487648881762,
+      "median_decision_ms": 0.09395834058523178,
+      "mean_migration_cost": 19.093333333333334,
+      "mean_capacity_violations": 0.0
+    },
+    "ilp": {
+      "mean_cost_total": 291.7531281874735,
+      "std_cost_total": 16.717416821872987,
+      "mean_avg_latency_ms": 0.29191314432299253,
+      "mean_pct_demand_served": 1.0,
+      "median_decision_ms": 37.01054211705923,
+      "mean_migration_cost": 4.16,
+      "mean_capacity_violations": 0.0
+    },
+    "drl": {
+      "mean_cost_total": 2959.0587133703407,
+      "std_cost_total": 300.5160228381952,
+      "mean_avg_latency_ms": 2.833994584453234,
+      "mean_pct_demand_served": 1.0,
+      "median_decision_ms": 1.2751251924782991,
+      "mean_migration_cost": 171.456,
+      "mean_capacity_violations": 0.0
+    }
+  },
+  "volatile": {
+    "random": {
+      "mean_cost_total": 9000.37668679232,
+      "std_cost_total": 211.87572161328123,
+      "mean_avg_latency_ms": 3.7815821105646372,
+      "mean_pct_demand_served": 0.3248730131209783,
+      "median_decision_ms": 0.06652041338384151,
+      "mean_migration_cost": 221.74399999999997,
+      "mean_capacity_violations": 0.135
+    },
+    "greedy": {
+      "mean_cost_total": 10148.690143700338,
+      "std_cost_total": 1594.4286370102018,
+      "mean_avg_latency_ms": 0.12412846195982434,
+      "mean_pct_demand_served": 0.16753962433598815,
+      "median_decision_ms": 0.7238956168293953,
+      "mean_migration_cost": 16.368,
+      "mean_capacity_violations": 0.0
+    },
+    "layer-aware": {
+      "mean_cost_total": 5750.679280933736,
+      "std_cost_total": 171.85254629226299,
+      "mean_avg_latency_ms": 3.969332010717123,
+      "mean_pct_demand_served": 0.6260754890986717,
+      "median_decision_ms": 0.10122940875589848,
+      "mean_migration_cost": 13.52,
+      "mean_capacity_violations": 0.0
+    },
+    "ilp": {
+      "mean_cost_total": 145.46287185035132,
+      "std_cost_total": 5.047808253532383,
+      "mean_avg_latency_ms": 0.29424547637849363,
+      "mean_pct_demand_served": 1.0,
+      "median_decision_ms": 41.60202038474381,
+      "mean_migration_cost": 3.12,
+      "mean_capacity_violations": 0.0
+    },
+    "drl": {
+      "mean_cost_total": 1485.260791992274,
+      "std_cost_total": 101.85452827596917,
+      "mean_avg_latency_ms": 2.76748651257412,
+      "mean_pct_demand_served": 1.0,
+      "median_decision_ms": 1.483395230025053,
+      "mean_migration_cost": 185.61599999999999,
+      "mean_capacity_violations": 0.0
+    }
+  }
+}

@@ -29,8 +29,6 @@ experiments/      training and evaluation scripts, figure generation
 results/          trained policy and saved evaluation outputs (regenerable)
 figures/          generated figures used in the paper
 paper/            LaTeX source, bibliography, and compiled PDF
-TECHNICAL_GUIDE.md   end-to-end implementation walkthrough
-CHANGES.md           detailed log of formulation refinements
 requirements.txt     Python dependencies
 ```
 

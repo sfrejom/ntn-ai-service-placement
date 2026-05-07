@@ -27,7 +27,7 @@ AGENT_LABEL = {
     "greedy": "Greedy",
     "layer-aware": "Layer-Aware",
     "drl": "DRL (ours)",
-    "ilp": "ILP (oracle)",
+    "ilp": "ILP (LP baseline)",
 }
 
 
